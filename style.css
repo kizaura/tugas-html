@@ -1,0 +1,67 @@
+/* CSS Styling - Tema Biru Muda yang Lucu */
+body {
+    font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+    background-color: #e0f7fa; /* Latar belakang biru muda */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Membuat body setinggi viewport */
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.container {
+    background-color: #ffffff; /* Latar belakang putih untuk kontainer */
+    padding: 30px; /* Padding dalam kontainer */
+    border-radius: 15px; /* Sudut membulat */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan */
+    max-width: 500px; /* Lebar maksimum kontainer */
+    width: 100%; /* Lebar penuh pada layar kecil */
+}
+
+h1 {
+    font-size: 2.5em; /* Ukuran font untuk h1 */
+    color: #00796b; /* Warna biru kehijauan */
+    text-align: center; /* Rata tengah */
+}
+
+h2 {
+    font-size: 1.8em; /* Ukuran font untuk h2 */
+    color: #004d40; /* Warna biru tua */
+    text-align: center; /* Rata tengah */
+}
+
+label {
+    font-size: 1em; /* Ukuran font untuk label */
+    color: #004d40; /* Warna biru tua */
+}
+
+input[type="text"],
+input[type="radio"],
+select,
+textarea {
+    width: calc(100% - 20px); /* Lebar input, mengurangi padding */
+    padding: 10px; /* Padding untuk input */
+    margin-top: 5px; /* Margin atas untuk pemisahan */
+    margin-bottom: 15px; /* Margin bawah untuk pemisahan */
+    border: 2px solid #00796b; /* Warna border biru kehijauan */
+    border-radius: 5px; /* Sudut membulat */
+    box-sizing: border-box; /* Menghitung padding dalam ukuran */
+}
+
+input[type="submit"] {
+    background-color: #00796b; /* Latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Tanpa border */
+    padding: 10px; /* Padding untuk tombol */
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Menunjukkan bisa diklik */
+    font-size: 1em; /* Ukuran font tombol */
+    width: 100%; /* Lebar penuh tombol */
+    transition: background-color 0.3s; /* Efek transisi untuk hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #004d40; /* Warna saat hover */
+}

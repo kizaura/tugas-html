@@ -1,0 +1,65 @@
+/* CSS Styling untuk Media Online */
+body {
+    font-family: 'Poppins', sans-serif; /* Font dari Google Fonts */
+    background-color: #e0f7fa; /* Warna latar belakang biru muda */
+    color: #006064; /* Warna teks biru tua */
+    margin: 0; /* Menghapus margin default */
+    padding: 20px; /* Padding untuk body */
+    display: flex;
+    flex-direction: column; /* Tampilan vertikal */
+    align-items: center; /* Rata tengah konten */
+}
+
+.container {
+    max-width: 600px; /* Membatasi lebar konten */
+    width: 100%; /* Lebar penuh di dalam container */
+    padding: 20px; /* Ruang dalam container */
+}
+
+h1 {
+    font-size: 2.5em; /* Ukuran font untuk h1 */
+    text-align: center; /* Rata tengah */
+    color: #004d40; /* Warna teks hijau tua */
+    margin-bottom: 20px; /* Margin bawah */
+}
+
+h2 {
+    font-size: 2em; /* Ukuran font untuk h2 */
+    color: #00796b; /* Warna teks hijau sedang */
+    margin-top: 25px; /* Margin atas */
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em; /* Ukuran font untuk h3 */
+    color: #009688; /* Warna teks hijau muda */
+    margin-top: 20px; /* Margin atas */
+}
+
+p {
+    font-size: 1.1em; /* Ukuran font untuk paragraf */
+    color: #004d40; /* Warna teks paragraf */
+    margin: 10px 0; /* Margin atas dan bawah */
+    text-align: center;
+}
+
+ul, ol {
+    width: 100%; /* Lebar penuh */
+    margin: 10px 20px; /* Margin untuk daftar */
+    padding: 10px; /* Padding dalam daftar */
+    background-color: #b2ebf2; /* Latar belakang daftar */
+    border-radius: 8px; /* Sudut membulat */
+}
+
+li {
+    margin: 5px 0; /* Margin untuk item daftar */
+}
+
+a {
+    color: #00796b; /* Warna tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
